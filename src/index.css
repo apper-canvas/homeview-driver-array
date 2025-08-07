@@ -1,0 +1,22 @@
+@import 'react-toastify/dist/ReactToastify.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Toast Styling */
+.Toastify__toast {
+  border-radius: 12px;
+  padding: 16px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #1f2937;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.Toastify__toast-container {
+  z-index: 9999;
+}
+
+.Toastify__progress-bar {
+  height: 3px;
+}

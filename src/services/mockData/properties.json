@@ -1,0 +1,234 @@
+[
+  {
+    "Id": 1,
+    "title": "Modern Downtown Loft",
+    "price": 425000,
+    "address": {
+      "street": "123 Main Street",
+      "unit": "Apt 4B",
+      "city": "Austin",
+      "state": "TX",
+      "zipCode": "78701"
+    },
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "squareFeet": 1200,
+    "propertyType": "Condo",
+    "images": [
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&h=600&fit=crop"
+    ],
+    "description": "Stunning downtown loft with floor-to-ceiling windows and modern finishes. This open-concept space features hardwood floors, stainless steel appliances, and a private balcony with city views.",
+    "features": ["Hardwood Floors", "Stainless Steel Appliances", "Private Balcony", "City Views", "Walk-in Closet", "In-unit Laundry"],
+    "coordinates": {
+      "lat": 30.2672,
+      "lng": -97.7431
+    },
+    "listingDate": "2024-01-15"
+  },
+  {
+    "Id": 2,
+    "title": "Charming Victorian Home",
+    "price": 650000,
+    "address": {
+      "street": "456 Oak Avenue",
+      "unit": "",
+      "city": "San Francisco",
+      "state": "CA",
+      "zipCode": "94102"
+    },
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFeet": 1850,
+    "propertyType": "Single Family",
+    "images": [
+      "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&h=600&fit=crop"
+    ],
+    "description": "Beautiful Victorian home with original architectural details and modern updates. Features include crown molding, bay windows, and a landscaped garden.",
+    "features": ["Original Hardwood", "Bay Windows", "Crown Molding", "Garden", "Updated Kitchen", "Clawfoot Tub"],
+    "coordinates": {
+      "lat": 37.7749,
+      "lng": -122.4194
+    },
+    "listingDate": "2024-01-20"
+  },
+  {
+    "Id": 3,
+    "title": "Contemporary Beachside Condo",
+    "price": 780000,
+    "address": {
+      "street": "789 Ocean Drive",
+      "unit": "Unit 12A",
+      "city": "Miami Beach",
+      "state": "FL",
+      "zipCode": "33139"
+    },
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "squareFeet": 1400,
+    "propertyType": "Condo",
+    "images": [
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&h=600&fit=crop"
+    ],
+    "description": "Luxurious beachside condo with panoramic ocean views. Features floor-to-ceiling windows, marble countertops, and access to resort-style amenities.",
+    "features": ["Ocean Views", "Marble Countertops", "Resort Amenities", "Beach Access", "Concierge Service", "Rooftop Pool"],
+    "coordinates": {
+      "lat": 25.7617,
+      "lng": -80.1918
+    },
+    "listingDate": "2024-01-10"
+  },
+  {
+    "Id": 4,
+    "title": "Cozy Mountain Cabin",
+    "price": 320000,
+    "address": {
+      "street": "321 Pine Ridge Road",
+      "unit": "",
+      "city": "Aspen",
+      "state": "CO",
+      "zipCode": "81611"
+    },
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "squareFeet": 950,
+    "propertyType": "Single Family",
+    "images": [
+      "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&h=600&fit=crop"
+    ],
+    "description": "Rustic mountain cabin with stunning views and cozy fireplace. Perfect retreat with wood beam ceilings and surrounded by nature.",
+    "features": ["Stone Fireplace", "Wood Beam Ceilings", "Mountain Views", "Deck", "Wood Stove", "Wildlife Viewing"],
+    "coordinates": {
+      "lat": 39.1911,
+      "lng": -106.8175
+    },
+    "listingDate": "2024-01-08"
+  },
+  {
+    "Id": 5,
+    "title": "Luxury Penthouse Suite",
+    "price": 1250000,
+    "address": {
+      "street": "555 Central Park West",
+      "unit": "Penthouse A",
+      "city": "New York",
+      "state": "NY",
+      "zipCode": "10025"
+    },
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "squareFeet": 2800,
+    "propertyType": "Condo",
+    "images": [
+      "https://images.unsplash.com/photo-1600607687644-c7171b42498b?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600566753151-384129cf4e3e?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&h=600&fit=crop"
+    ],
+    "description": "Magnificent penthouse with Central Park views and premium finishes throughout. Features include a private terrace, wine cellar, and smart home technology.",
+    "features": ["Central Park Views", "Private Terrace", "Wine Cellar", "Smart Home", "Chef's Kitchen", "Master Suite"],
+    "coordinates": {
+      "lat": 40.7851,
+      "lng": -73.9683
+    },
+    "listingDate": "2024-01-05"
+  },
+  {
+    "Id": 6,
+    "title": "Suburban Family Home",
+    "price": 485000,
+    "address": {
+      "street": "678 Maple Lane",
+      "unit": "",
+      "city": "Plano",
+      "state": "TX",
+      "zipCode": "75023"
+    },
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "squareFeet": 2200,
+    "propertyType": "Single Family",
+    "images": [
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600566753151-384129cf4e3e?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&h=600&fit=crop"
+    ],
+    "description": "Perfect family home in excellent school district. Features include a large backyard, two-car garage, and open floor plan ideal for entertaining.",
+    "features": ["Open Floor Plan", "Large Backyard", "Two-Car Garage", "Excellent Schools", "Master Suite", "Game Room"],
+    "coordinates": {
+      "lat": 33.0198,
+      "lng": -96.6989
+    },
+    "listingDate": "2024-01-12"
+  },
+  {
+    "Id": 7,
+    "title": "Historic Brownstone",
+    "price": 850000,
+    "address": {
+      "street": "234 Beacon Hill",
+      "unit": "",
+      "city": "Boston",
+      "state": "MA",
+      "zipCode": "02108"
+    },
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFeet": 1750,
+    "propertyType": "Townhouse",
+    "images": [
+      "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800&h=600&fit=crop"
+    ],
+    "description": "Beautifully preserved historic brownstone in the heart of Beacon Hill. Features original brick walls, exposed beams, and modern amenities.",
+    "features": ["Historic Character", "Original Brick", "Exposed Beams", "Modern Kitchen", "Roof Deck", "Fireplace"],
+    "coordinates": {
+      "lat": 42.3584,
+      "lng": -71.0598
+    },
+    "listingDate": "2024-01-18"
+  },
+  {
+    "Id": 8,
+    "title": "Modern Townhouse",
+    "price": 575000,
+    "address": {
+      "street": "890 Innovation Drive",
+      "unit": "",
+      "city": "Seattle",
+      "state": "WA",
+      "zipCode": "98109"
+    },
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFeet": 1650,
+    "propertyType": "Townhouse",
+    "images": [
+      "https://images.unsplash.com/photo-1600607687644-c7171b42498b?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&h=600&fit=crop"
+    ],
+    "description": "Contemporary townhouse with sleek design and energy-efficient features. Located in a vibrant neighborhood with easy access to downtown.",
+    "features": ["Energy Efficient", "Modern Design", "Private Garage", "Rooftop Terrace", "Smart Thermostat", "Quartz Counters"],
+    "coordinates": {
+      "lat": 47.6205,
+      "lng": -122.3493
+    },
+    "listingDate": "2024-01-22"
+  }
+]
