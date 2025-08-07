@@ -1,12 +1,15 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
+import { useSelector } from "react-redux";
 import Button from "@/components/atoms/Button";
 import ApperIcon from "@/components/ApperIcon";
-
+import { AuthContext } from "../../App";
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const location = useLocation();
+  const { logout } = useContext(AuthContext);
+  const { user, isAuthenticated } = useSelector((state) => state.user);
 
   const navigation = [
     { name: "Browse Properties", href: "/", icon: "Home" },
@@ -30,7 +33,7 @@ const Header = () => {
             </span>
           </Link>
 
-          {/* Desktop Navigation */}
+{/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-8">
             {navigation.map((item) => (
               <Link
@@ -46,6 +49,22 @@ const Header = () => {
                 {item.name}
               </Link>
             ))}
+            {/* User Section */}
+            {isAuthenticated && (
+              <div className="flex items-center gap-4 ml-4 pl-4 border-l border-gray-200">
+                <span className="text-sm text-gray-600">
+                  Welcome, {user?.firstName || user?.name || 'User'}
+                </span>
+                <Button
+                  onClick={logout}
+                  variant="ghost"
+                  icon="LogOut"
+                  size="sm"
+                >
+                  Logout
+                </Button>
+              </div>
+            )}
           </nav>
 
           {/* Mobile Menu Button */}
@@ -67,7 +86,7 @@ const Header = () => {
               transition={{ duration: 0.2 }}
               className="lg:hidden overflow-hidden border-t border-gray-100"
             >
-              <nav className="py-4 space-y-2">
+<nav className="py-4 space-y-2">
                 {navigation.map((item) => (
                   <Link
                     key={item.name}
@@ -83,6 +102,24 @@ const Header = () => {
                     {item.name}
                   </Link>
                 ))}
+                {/* Mobile User Section */}
+                {isAuthenticated && (
+                  <div className="pt-4 border-t border-gray-200">
+                    <div className="px-4 py-2 text-sm text-gray-600 mb-2">
+                      Welcome, {user?.firstName || user?.name || 'User'}
+                    </div>
+                    <button
+                      onClick={() => {
+                        setIsMobileMenuOpen(false);
+                        logout();
+                      }}
+                      className="w-full flex items-center gap-3 px-4 py-3 rounded-lg font-medium transition-all duration-200 text-red-600 hover:bg-red-50"
+                    >
+                      <ApperIcon name="LogOut" size={20} />
+                      Logout
+                    </button>
+                  </div>
+                )}
               </nav>
             </motion.div>
           )}
